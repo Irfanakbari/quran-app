@@ -1,16 +1,13 @@
-# quran
+# quran-app
 
-A new Flutter project.
+Aplikasi Al-Qur'an Digital sebagai Project akhir Kelas Flutter Dicoding, dibangun dengan Framework Flutter.
 
-## Getting Started
+## Library yang dipakai :
+- flutter_custom_tab_bar: ^1.1.9
+- http: ^0.13.4
+- shimmer: ^2.0.0
+- audioplayers: ^0.20.1
 
-This project is a starting point for a Flutter application.
+## Sumber Data Berasal dari API :
+- https://quran-api-id.vercel.app/
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
