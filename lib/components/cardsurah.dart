@@ -61,11 +61,12 @@ class CardSurah extends StatelessWidget {
                       ),
                     ],
                   ),
-                  Text(
-                    tipe + " / " + ayat.toString(),
-                    style: const TextStyle(
-                        fontSize: 18, color: Color.fromARGB(255, 67, 108, 96)),
-                  ),
+                  // Text(
+                  //   tipe + " / " + ayat.toString(),
+                  //   maxLines: 1,
+                  //   style: const TextStyle(
+                  //       fontSize: 18, color: Color.fromARGB(255, 67, 108, 96)),
+                  // ),
                 ],
               ),
             ),

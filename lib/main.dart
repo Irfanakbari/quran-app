@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:quran/screen/home.dart';
 import 'package:quran/screen/homepage.dart';
+import 'package:quran/screen/splash.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       title: 'My-Quran',
-      home: HomePage(),
+      home: Splash(),
     );
   }
 }

@@ -81,7 +81,8 @@ class _DetailState extends State<Detail> {
                       CardListAyat(
                           arab: datas.ayahs[i].arab,
                           soundUrl: datas.ayahs[i].audio.alafasy,
-                          arti: datas.ayahs[i].translation)
+                          arti: datas.ayahs[i].translation,
+                          tafsir: datas.ayahs[i].tafsir.kemenag.short)
                   ],
                 )
               : Shimmer.fromColors(

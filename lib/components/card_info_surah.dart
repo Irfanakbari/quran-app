@@ -53,25 +53,13 @@ class _CardInfoState extends State<CardInfo> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Row(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: [
-                Text(
-                  widget.surah!,
-                  style: const TextStyle(
-                    color: Colors.white,
-                    fontSize: 35,
-                    fontWeight: FontWeight.bold,
-                  ),
-                ),
-                Text(
-                  widget.tipe!,
-                  style: const TextStyle(
-                      color: Color.fromRGBO(169, 216, 200, 1),
-                      fontSize: 16,
-                      fontWeight: FontWeight.bold),
-                ),
-              ],
+            Text(
+              widget.surah!,
+              style: const TextStyle(
+                color: Colors.white,
+                fontSize: 35,
+                fontWeight: FontWeight.bold,
+              ),
             ),
             const SizedBox(
               height: 8,
@@ -134,8 +122,15 @@ class _CardInfoState extends State<CardInfo> {
                       )
               ],
             ),
+            Text(
+              widget.tipe!,
+              style: const TextStyle(
+                  color: Color.fromRGBO(169, 216, 200, 1),
+                  fontSize: 18,
+                  fontWeight: FontWeight.bold),
+            ),
             const SizedBox(
-              height: 20,
+              height: 30,
             ),
             GestureDetector(
               onTap: () {
